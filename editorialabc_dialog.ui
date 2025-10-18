@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditorialABC_Dialog</class>
+ <widget class="QDialog" name="EditorialABC_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ContextMenuPolicy::ActionsContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTableView" name="tableView">
+     <property name="contextMenuPolicy">
+      <enum>Qt::ContextMenuPolicy::ActionsContextMenu</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionAlta">
+   <property name="text">
+    <string>Alta</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionBaja">
+   <property name="text">
+    <string>Baja</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

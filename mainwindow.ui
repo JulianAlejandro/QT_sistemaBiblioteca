@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuQuitar_aplicacion">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionQuitar_aplicacion"/>
+   </widget>
+   <widget class="QMenu" name="menuLibro">
+    <property name="title">
+     <string>Libro</string>
+    </property>
+    <addaction name="actionLibroABC"/>
+    <addaction name="actionLibroconsulta"/>
+   </widget>
+   <widget class="QMenu" name="menuAutor">
+    <property name="title">
+     <string>Autor</string>
+    </property>
+    <addaction name="actionAutorABC"/>
+   </widget>
+   <widget class="QMenu" name="menuEditorial">
+    <property name="title">
+     <string>Editorial</string>
+    </property>
+    <addaction name="actionEditorialABC"/>
+   </widget>
+   <addaction name="menuQuitar_aplicacion"/>
+   <addaction name="menuLibro"/>
+   <addaction name="menuAutor"/>
+   <addaction name="menuEditorial"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionQuitar_aplicacion"/>
+  </widget>
+  <action name="actionQuitar_aplicacion">
+   <property name="text">
+    <string>Quitar aplicacion</string>
+   </property>
+  </action>
+  <action name="actionLibroABC">
+   <property name="text">
+    <string>, modificación</string>
+   </property>
+  </action>
+  <action name="actionAutorABC">
+   <property name="text">
+    <string>, modificación</string>
+   </property>
+  </action>
+  <action name="actionEditorialABC">
+   <property name="text">
+    <string>, modificación</string>
+   </property>
+  </action>
+  <action name="actionLibroconsulta">
+   <property name="text">
+    <string>consulta</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

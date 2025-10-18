@@ -1,0 +1,23 @@
+# Build directories
+build/
+*/build/
+
+# Executables
+105_SistemaBiblioteca
+*.exe
+
+# Qt Creator files
+*.pro.user
+*.autosave
+
+# Compiled files
+*.o
+moc_*
+qrc_*
+*.so
+*.dll
+*.dylib
+
+# Debug files
+debug/
+release/
